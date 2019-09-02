@@ -8,5 +8,5 @@ Batch script to hash a file and send it to Virustotal and fetch the results as a
 **Syntax: VT-File-Query FILE.EXE**
   
   Will send the hash of FILE.EXE to Virustotal and fetch the results.
-  Use your favourite JSON parser to deal with the resutls.
+  Use your favourite JSON parser to deal with the results.
   
