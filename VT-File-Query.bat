@@ -6,4 +6,4 @@ echo y | del t.hash.txt
 set apikey=<Your API key here>
 curl -o "results.json" "https://www.virustotal.com/vtapi/v2/file/report?apikey=%apikey%&resource=%hash%"
 
-rem Use result.json with your favorite JSON parser to extract "Results" field
+rem Use result.json with your favorite JSON parser to extract "Results" field, JQ for example: http://stedolan.github.io/jq/
